@@ -70,7 +70,7 @@ the attached log file for all the results).
 Also, A confusion matrix and classification report are provided for all the
 scenarios to have a better vision of the results.
 
-![](media/1db797c7364f9a44c1f5215e619dc02f.emf)
+![](media/1db797c7364f9a44c1f5215e619dc02f.jpeg)
 
 We can plot a learning curve that illustrates the mean square error versus
 iterations.
@@ -96,20 +96,13 @@ too-large learning rates lead the model to converge too quickly to a non-optimal
 weight. Also, the too-small ones lead to a prolonged model, and sometimes it can
 destroy the accuracy.
 
-![](media/c6397e86353b863b2f3dea4975857875.emf)
+![](media/c6397e86353b863b2f3dea4975857875.jpeg)
 
 According to the results, increasing the number of hidden nodes increases the
 model's accuracy, but it needs more time to be trained. Too many hidden nodes
 cannot improve the model (please see the table below).
 
-|                        | **beta = 0.2** |          |          |
-|------------------------|----------------|----------|----------|
-| **\# of hidden nodes** | **Accuracy**   | **MSE**  | **Time** |
-| **10**                 | 0.81           | 0.045125 | 1.596705 |
-| **35**                 | 0.89           | 0.0253   | 3.408837 |
-| **100**                | 0.9            | 0.022646 | 4.99573  |
-| **300**                | 0.91           | 0.024208 | 19.19552 |
-| **500**                | 0.9            | 0.02505  | 35.2941  |
+![](media/2ce00cb5dc9df1bba4308a897a4a0ef7.jpeg)
 
 **A comparison between the MLP results with the**
 [**SVM**](https://github.com/pourbemany/Handwritten-digits-recognition-by-SVM-classifier)
@@ -123,7 +116,7 @@ the 3001 iteration of SLP takes 0.219 seconds while MLP takes 0.13 seconds, only
 one iteration for one iteration. In some cases, MLP can be more accurate than
 SVM.
 
-![](media/53b1371d2e2e7e06d712f6804af70c10.emf)
+![](media/53b1371d2e2e7e06d712f6804af70c10.jpeg)
 
 To visualize the model's result, I randomly selected six images and their
 predicted labels. As you can see in the figures below, the model's performance
